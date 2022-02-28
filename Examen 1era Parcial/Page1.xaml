@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen_1era_Parcial.Page1">
+
+
+
+    <StackLayout Spacing="0">
+        <StackLayout HeightRequest="135" BackgroundColor="#63D1B4">
+            <StackLayout Orientation="Horizontal" Margin="20" VerticalOptions="EndAndExpand">
+                <Image HeightRequest="30" Source="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1646012780~hmac=bce01a04ad592e4e12f2a6a57ba791df" />
+                <Label VerticalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="hi, " FontAttributes="Bold" FontSize="20"/>
+                            <Span Text="Deon" FontAttributes="Bold" TextColor="White" FontSize="20"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Image Margin="0,0,0,10" HeightRequest="20" HorizontalOptions="EndAndExpand" Source="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1646012758~hmac=68ed7843267214026bd44bd6821c73de"/>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout BackgroundColor="#63D1B4"  VerticalOptions="FillAndExpand">
+            <Frame  CornerRadius="25" VerticalOptions="FillAndExpand">
+                <StackLayout Orientation="Vertical">
+                    
+                    <StackLayout Orientation="Vertical" Spacing="20">
+
+                        <Frame CornerRadius="15" BackgroundColor="#F2F2F2" Padding="13">
+                            <Label Text="Office Meeting" FontAttributes="Bold" TextColor="#CFCFD1" FontSize="30" />
+                        </Frame>
+                        <StackLayout Orientation="Horizontal" Spacing="20">
+                            <Frame CornerRadius="50" BackgroundColor="#C2E3D1" Padding="10">
+                                <Label Text="   Meeting   " FontAttributes="Bold" FontSize="21"/>
+                            </Frame>
+                            <Frame CornerRadius="50" BackgroundColor="#C2EDBF" Padding="10">
+                                <Label Text="   Office Meeting   " FontAttributes="Bold" FontSize="21"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Spacing="20">
+                            <Frame CornerRadius="50" BackgroundColor="#DCC3E3" Padding="10">
+                                <Label Text="   Office Meeting   " FontAttributes="Bold" FontSize="21"/>
+                            </Frame>
+                            <Frame CornerRadius="50" BackgroundColor="#96CCBE" Padding="10">
+                                <Label Text="  +  " FontAttributes="Bold" FontSize="21" TextColor="White"/>
+                            </Frame>
+                        </StackLayout>
+                    </StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Grid.Row="0" Text="Invite People" FontAttributes="bold" FontSize="21" Grid.ColumnSpan="4" Padding="0,50,0,0"/>
+                        <Frame Grid.Row="1" Grid.Column="0" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://amnistia.org.mx/contenido/wp-content/uploads/2020/07/271952_Sandra-Grzelaszyk_-Amnesty-International-Poland-activist-1024x683.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="1" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://img.europapress.es/fotoweb/fotonoticia_20170327111815_420.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="2" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://www.cadenadial.com/wp-content/uploads/2021/04/GettyImages-1190953384-2.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="1" Grid.Column="3" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://previews.123rf.com/images/gmast3r/gmast3r1711/gmast3r171100785/89983465-grupo-de-personas-tomar-fotos-de-selfie-sobre-un-hermoso-paisaje-de-monta%C3%B1a-trekking-en-el-bosque-ca.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="2" Grid.Column="0" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://img.freepik.com/foto-gratis/buenas-personas-toman-selfie-calle_85574-1519.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="2" Grid.Column="1" Margin="10" BorderColor="Black" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center">
+                            <Image Source="https://iteragrow.com/wp-content/uploads/2018/04/buyer-persona-e1545248524290.jpg"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        <Frame Grid.Row="2" Grid.Column="2" Margin="10" CornerRadius="50" HeightRequest="25" WidthRequest="25" IsClippedToBounds="True" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="#E4E4E4">
+                            <Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Plus_symbol.svg/640px-Plus_symbol.svg.png"
+                             Aspect="AspectFill" Margin="-20" HeightRequest="100" WidthRequest="100" />
+                        </Frame>
+                        
+                    </Grid>
+                    <Frame CornerRadius="20" BackgroundColor="#63D1B4" Padding="15" VerticalOptions="EndAndExpand">
+                        <Label FontAttributes="Bold" HorizontalTextAlignment="Center" FontSize="20">
+                            Save
+                        </Label>
+                    </Frame>
+                </StackLayout>
+                
+            </Frame>
+        </StackLayout>
+        
+    </StackLayout>
+    
+</ContentPage>

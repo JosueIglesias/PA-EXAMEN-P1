@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen_1era_Parcial.MainPage">
+    <AbsoluteLayout>
+        
+    
+        <StackLayout Spacing="0">
+            <StackLayout HeightRequest="270" BackgroundColor="#63D1B4">
+                <StackLayout Orientation="Vertical" VerticalOptions="CenterAndExpand" Spacing="20" >
+                    <StackLayout Orientation="Horizontal" Margin="20">
+                        <Image HeightRequest="30" Source="https://cdn-icons.flaticon.com/png/512/1144/premium/1144709.png?token=exp=1646012780~hmac=bce01a04ad592e4e12f2a6a57ba791df" />
+                        <Label VerticalTextAlignment="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="hi, " FontAttributes="Bold" FontSize="20"/>
+                                    <Span Text="Deon" FontAttributes="Bold" TextColor="White" FontSize="20"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Image Margin="0,0,0,10" HeightRequest="20" HorizontalOptions="EndAndExpand" Source="https://cdn-icons.flaticon.com/png/512/3031/premium/3031293.png?token=exp=1646012758~hmac=68ed7843267214026bd44bd6821c73de"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="-30" HorizontalOptions="CenterAndExpand">
+                        <Button Text="14 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" Opacity="0.44" ></Button>
+                        <Button Text="15 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" Opacity="0.44" ></Button>
+                        <Button Text="16 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" ></Button>
+                        <Button Text="17 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" Opacity="0.44" ></Button>
+                        <Button Text="18 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" Opacity="0.44" ></Button>
+                        <Button Text="19 Jan" WidthRequest="90" Rotation="-90" CornerRadius="30" BackgroundColor="White" Opacity="0.44" ></Button>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="#63D1B4"  VerticalOptions="FillAndExpand">
+                <Frame CornerRadius="25" VerticalOptions="FillAndExpand">
+                    <StackLayout Orientation="Vertical" Spacing="35">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Tue," FontAttributes="Bold" FontSize="20"/>
+                            <Label Text="16 Jan" FontAttributes="Bold" TextColor="#63D1B4" FontSize="20"/>
+                            <Image HorizontalOptions="EndAndExpand" HeightRequest="20" Source="https://cdn-icons.flaticon.com/png/512/2278/premium/2278049.png?token=exp=1646013857~hmac=b2569bbc5e661a5990a66ab63ac5e28b"></Image>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="8:00" FontAttributes="Bold" HorizontalOptions="Start" FontSize="18"/>
+                            <Frame  CornerRadius="15" BackgroundColor="#FFE2D6" HorizontalOptions="EndAndExpand" WidthRequest="250">
+                                <Label Text="Gym Body Work and Yoga" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="9:00" FontAttributes="Bold" HorizontalOptions="Start" FontSize="18"/>
+                            <Frame  CornerRadius="15" BackgroundColor="#FFEED2" HorizontalOptions="EndAndExpand" WidthRequest="250">
+                                <Label Text="Morning Breakfast Time" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="11:00" FontAttributes="Bold" HorizontalOptions="Start" FontSize="18"/>
+                            <Frame  CornerRadius="15" BackgroundColor="#D5FED3" HorizontalOptions="EndAndExpand" WidthRequest="250">
+                                <Label Text="Office Meeting with group" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="13:30" FontAttributes="Bold" HorizontalOptions="Start" FontSize="18"/>
+                            <Frame  CornerRadius="15" BackgroundColor="#D4FFF3" HorizontalOptions="EndAndExpand" WidthRequest="250">
+                                <Label Text="New App Project Discuss With Project group" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="16:30" FontAttributes="Bold" HorizontalOptions="Start" FontSize="18"/>
+                            <Frame  CornerRadius="15" BackgroundColor="#E9E6FF" HorizontalOptions="EndAndExpand" WidthRequest="250">
+                                <Label Text="Gym Body Work and Yoga" FontAttributes="Bold" FontSize="18"/>
+                            </Frame>
+                        </StackLayout>
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+        <Button BackgroundColor="#5FD5B6" 
+                AbsoluteLayout.LayoutFlags="PositionProportional" 
+                AbsoluteLayout.LayoutBounds=".95,.95,60,60"
+                CornerRadius="50" Text="+" FontSize="30"  
+                ></Button>
+    </AbsoluteLayout>
+
+
+</ContentPage>
